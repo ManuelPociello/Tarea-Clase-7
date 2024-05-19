@@ -1,0 +1,127 @@
+.Cuerpo {
+    display: grid;
+    gap: 10px;
+}
+
+@media (min-width: 769px) {
+    .Cuadro-rojo {
+        background-color: red;
+        padding: 80px;
+        grid-row-start: 3;
+    }
+
+    .Cuadro-azul {
+        background-color: blue;
+        padding: 80px;
+        grid-row-start: 1;
+    }
+
+    .Cuadro-violeta {
+        background-color: purple;
+        padding: 80px;
+        grid-row-start: 2;
+    }
+
+    .Cuadro-verde {
+        background-color: green;
+        padding: 80px;
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .Cuadro-amarillo {
+        background-color: yellow;
+        padding: 80px;
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+
+    .Cuadro-naranja {
+        background-color: orangered;
+        padding: 80px;
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+
+    .Cuadro-negro {
+        background-color: black;
+        padding: 80px;
+        grid-row-start: 1;
+        grid-column-start: 3;
+    }
+
+    .Cuadro-rosa {
+        background-color: pink;
+        padding: 80px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+    }
+
+    .Cuadro-gris {
+        background-color: grey;
+        padding: 80px;
+        grid-row-start: 3;
+        grid-column-start: 3;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 769px) {
+    .Cuadro-rojo {
+        background-color: red;
+        padding: 80px;
+        grid-row-start: 2;
+    }
+
+    .Cuadro-azul {
+        background-color: blue;
+        padding: 80px;
+        grid-row-start: 3;
+    }
+
+    .Cuadro-violeta {
+        background-color: purple;
+        padding: 80px;
+        grid-row-start: 1;
+    }
+
+    .Cuadro-verde {
+        background-color: green;
+        padding: 80px;
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+
+    .Cuadro-amarillo {
+        background-color: yellow;
+        padding: 80px;
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+
+    .Cuadro-naranja {
+        background-color: orange;
+        padding: 80px;
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+}
+
+@media (max-width: 320px) {
+    .Cuadro-rojo {
+        background-color: red;
+        padding: 80px;
+        grid-row-start: 1;
+    }
+
+    .Cuadro-azul {
+        background-color: blue;
+        padding: 80px;
+        grid-row-start: 2;
+    }
+
+    .Cuadro-violeta {
+        background-color: purple;
+        padding: 80px;
+        grid-row-start: 3;
+    }
+}
